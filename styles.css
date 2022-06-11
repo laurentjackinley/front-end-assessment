@@ -39,6 +39,9 @@ img {
 h1{
 	text-align: left;
 }
+#boxes{
+	display: inline-block;
+}
 .main{
 	background-color:lightblue;
 }
@@ -60,19 +63,28 @@ header{
 .inline{
 	display:inline-flexbox;
 }
-#color{
+.colors2{
+	font-size: 20px;
 	margin-right: 10%;
+	background-color: yellow;
+	border-radius: 10%;
 }
-#place{
+.places2{
+	background-color: yellow;
+	font-size: 20px;
 	margin-right: 10%;
+	border-radius: 10%;
 }
-#ritual{
-	margin-left: 25%;
+.rituals2{
+	background-color: yellow;
+	font-size: 20px;
+	margin-left: 22%;
 	border-radius: 50%;
 }
-button{
+button:hover{
 	font-size: 20px;
 	color: yellow;
 	background-color: black;
 	border: none;
+	transition: 1s;
 }

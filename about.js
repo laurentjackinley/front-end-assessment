@@ -6,12 +6,14 @@ function handleSubmit(evt) {
 	
 	alert('The form has been submitted successfully');
 }
+
+let form = document.querySelector('#contact');
+
+form.addEventListener('submit', handleSubmit);
+
 function giveCompli(evt){
 	evt.preventDefault();
 	alert("You're the best!")
 }
 
-let form = document.querySelector('#contact');
-
-form.addEventListener('submit', handleSubmit);
 mouseoverimg.addEventListener('mouseover',giveCompli)
